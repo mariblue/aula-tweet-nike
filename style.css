@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 15px;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+
+}
+
+.screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  border: 1px solid #dadddf;
+  padding: 17px 17px 19px 17px;
+  margin: 5px;
+  width: 591px;
+
+}
+
+.content {
+  width: 430px;
+  margin-left: 12px; 
+
+}
+
+.image img {
+  margin-right: 12px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.header span {
+  color: #536471
+}
+
+.descricao {
+  margin-bottom: 30px;
+  width: 450px;
+}
+
+p + p {
+  margin-bottom: 16px;
+}
+
+.h1 {
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: capitalize;
+  color: #0F1419;
+  margin-right: 6px;
+
+}
+
+.Verificado {
+  width: 15px;
+  height: 15px;
+  margin-right: 6px;
+  margin-left: 6px;
+
+}
+
+.h2 {
+  color: #536471;
+  font-size: 15px;
+  font-weight: 400;
+  margin-right: 5px;
+  text-transform: capitalize;
+
+}
+
+.bolinha {
+  width: 4px;
+  height: 5px;
+  margin-right: 3px;
+  margin-left: 3px;
+
+}
+
+.data {
+  font-size: 15px;
+  color: #536471;
+
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 430px;
+}
+
+.box img {
+  margin-right: 20px;
+}
